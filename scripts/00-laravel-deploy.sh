@@ -12,3 +12,6 @@ php artisan config:cache
 echo "Caching routes..."
 php artisan route:cache
 
+echo "migrating database..."
+php artisan migrate --force
+
